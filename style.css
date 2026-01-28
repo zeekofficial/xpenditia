@@ -1,0 +1,31 @@
+body{
+  margin:0;
+  font-family:Inter,system-ui,Arial;
+  background:linear-gradient(180deg,#0b2a55,#123d78);
+  color:white;
+}
+.container{max-width:1100px;margin:auto;padding:20px}
+.header{display:flex;gap:16px;align-items:center}
+.logo{width:64px}
+.card{
+  background:#163e73;
+  border-radius:16px;
+  padding:20px;
+  margin:20px 0;
+}
+input,select,button{
+  width:100%;
+  padding:10px;
+  margin:6px 0;
+  border-radius:10px;
+  border:none;
+}
+button{
+  background:#2e7d32;
+  color:white;
+  font-weight:600;
+  cursor:pointer;
+}
+.hidden{display:none}
+table{width:100%;background:white;color:black;border-radius:10px}
+td,th{padding:8px}
